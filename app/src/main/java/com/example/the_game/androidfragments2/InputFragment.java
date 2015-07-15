@@ -45,7 +45,7 @@ public class InputFragment extends Fragment{
 
         button.setOnClickListener(
                 new View.OnClickListener() {
-                    public void onClick(View v){
+                    public void onClick(View v) {
 
                         activityCommander.sendPhoneNumber(editText.getText().toString());
 
@@ -57,7 +57,5 @@ public class InputFragment extends Fragment{
         return view;
 
     }
-
-
 
 }
